@@ -1,0 +1,15 @@
+﻿@page
+@model ErrorModel
+@{
+    ViewData["Title"] = "خطا!";
+}
+<div class="text-center">
+    <h1 class="text-danger">@ViewData["Title"]</h1>
+    <h2 class="text-danger">صفحه مورد نظر یافت نشد.</h2>
+    @if (Model.ShowRequestId)
+    {
+        <p>
+            <strong>کد درخواست: </strong> <code>@Model.RequestId</code>
+        </p>
+    }
+</div>

@@ -1,0 +1,138 @@
+﻿@page
+@model mhmdhidry.Pages.Reg_pakageModel
+@{
+    Layout = "_Ly";
+}
+
+
+	<form method="post" enctype="multipart/form-data">
+
+<div class="row">
+	<div class="col-lg-12 col-md-12 col-sm-12">
+		<div class="dashboard_container">
+			<div class="dashboard_container_header">
+			
+				<div class="dashboard_fl_1">
+					<h4>دوره خود را ثبت نمایید</h4>
+				</div>
+			</div>
+			<div class="dashboard_container_body p-4">
+				<!-- Basic info -->
+				<div class="submit-section">
+					
+					<div class="form-row">
+
+						<div class="form-group col-md-6">
+							<label>عنوان</label>
+						
+							<input asp-for="Pkg_Name" class="form-control" placeholder="عنوان">
+						</div>
+
+						<div class="form-group col-md-6">
+							<label>قیمت</label>
+							<input asp-for="Pkg_Price" class="form-control" placeholder="قیمت">
+
+						</div>
+
+					@*	<div class="form-group col-md-6">
+							<label>تاریخ </label>
+							<input asp-for="Pkg_date" class="form-control" placeholder="تاریخ">
+						</div>
+*@
+
+							<div class="form-group col-md-6">
+								<label>وضعیت</label>
+								<input asp-for="status" class="form-control" placeholder="وضعیت">
+
+							</div>
+							<div class="form-group col-md-6">
+								<label>مدت زمان</label>
+								<input asp-for="Pkg_dur" class="form-control" placeholder="مدت زمان">
+
+							</div>
+
+
+
+
+						<div class="form-group col-md-6">
+							<label>برچسب</label>
+							<input asp-for="Pkg_tag" class="form-control" placeholder="برچسب">
+
+						</div>
+
+						<div class="form-group col-md-6">
+							<label>نام مدرس</label>
+							<input asp-for="Pkg_Teacher" class="form-control" placeholder="مدرس">
+
+						</div>
+
+						<div class="form-group col-md-12">
+							<label>عکس دوره</label>
+							@*<form action="" class="dropzone dz-clickable primary-dropzone">*@
+								<div class="dz-default dz-message">
+									<i class="ti-gallery"></i>
+									<span>تصویر موردنظر را آپلود نمایید</span>
+								</div>
+								<input asp-for="pkg_pic" type="file" class="form-control simple">
+							@*</form>*@
+						</div>
+
+					</div>
+					
+				</div>
+				<!-- Basic info -->
+
+			</div>
+
+		</div>
+	</div>
+</div>
+<!-- /Row -->
+<!-- Row -->
+<div class="row">
+	<div class="col-lg-12 col-md-12 col-sm-12">
+		<div class="dashboard_container">
+			<div class="dashboard_container_header">
+				<div class="dashboard_fl_1">
+					<h4>افزودن توضیحات</h4>
+				</div>
+			</div>
+			<div class="dashboard_container_body p-4">
+				<!-- Basic info -->
+				<div class="submit-section">
+					<div class="form-row">
+
+						<div class="form-group col-md-12">
+							<label>درباره دوره</label>
+							<textarea asp-for="dsc" class="form-control" placeholder="متن دلخواه"></textarea>
+							
+						</div>
+
+						<div class="form-group col-md-12">
+							<label>دسته بندی</label>
+							<input type="text" class="form-control" placeholder="نرم افزار، گرافیک،...">
+						</div>
+
+					</div>
+				</div>
+				<!-- Basic info -->
+
+			</div>
+
+		</div>
+	</div>
+</div>
+
+
+<!-- /Row -->
+<!-- Row -->
+
+<!-- /Row -->
+
+<div class="row">
+	<div class="form-group col-lg-12 col-md-12">
+		<button class="btn btn-theme" type="submit">ذخیره</button>
+	</div>
+</div>
+
+						</form>

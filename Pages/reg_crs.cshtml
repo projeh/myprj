@@ -1,0 +1,113 @@
+﻿@page
+@model mhmdhidry.Pages.reg_crsModel
+@{
+	Layout = "_Ly";
+}
+<div class="col-lg-6">
+	<div class="info d-flex align-items-center">
+		<div class="content">
+			<div class="logo">
+				<h1>ثبت نام</h1>
+			</div>
+			<p>فرم روبرو را تکمیل کنید تا ثبت نام شما کامل شود</p>
+		</div>
+	</div>
+</div>
+<!-- Form Panel    -->
+<div class="col-lg-6 bg-white">
+	<div class="form d-flex align-items-center">
+		<div class="content">
+			<form id="register-form">
+				<div class="form-group">
+					<input id="register-username" type="text" name="registerUsername" required class="input-material">
+					<label for="register-username" class="label-material">نام کاربری</label>
+				</div>
+				<div class="form-group">
+					<input id="register-email" type="email" name="registerEmail" required class="input-material">
+					<label for="register-email" class="label-material">آدرس ایمیل      </label>
+				</div>
+				<div class="form-group">
+					<input id="register-passowrd" type="password" name="registerPassword" required class="input-material">
+					<label for="register-passowrd" class="label-material">رمز عبور        </label>
+				</div>
+				<div class="form-group terms-conditions">
+					<input id="license" type="checkbox" class="checkbox-template">
+					<label for="license">با توافقنامه استفاده از سایت موافقم</label>
+				</div>
+				<input id="register" type="submit" value="ثبت نام" class="btn btn-primary">
+			</form><small>قبلا ثبت نام کرده اید؟ </small><a href="login.html" class="signup">ورود</a>
+		</div>
+	</div>
+</div>
+		  
+	<div class="row">
+
+			<div class="col-lg-8 col-md-7">
+				<div class="prc_wrap">
+
+					<div class="prc_wrap_header">
+						<h4 class="property_block_title"> فرم ثبت اطلاعات دوره ها </h4>
+					</div>
+
+					<div class="prc_wrap-body">
+
+				<div class="prc_wrap-body">
+					<form method="post" enctype="multipart/form-data">
+
+
+						<div class="row">
+
+							<div class="col-lg-6 col-md-12">
+								<div class="form-group">
+									<label> شماره</label>
+									<input asp-for="CrgID"  class="form-control simple">
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-12">
+								<div class="form-group">
+									<label> نام</label>
+									<input asp-for="CrgFullName" type="file" class="form-control simple">
+								</div>
+							</div>
+
+
+
+						</div>
+
+
+
+
+
+
+
+						<div class="form-group">
+							@*						<input type="hidden" name="id" value="@id" />
+							<input type="hidden" name="id" value="@id" />
+
+							*@
+							@*						<input asp-for="crs.CrgID" hidden /><input asp-for="crs.CrgFullName" hidden />
+							*@
+
+							<button class="btn btn-theme" type="submit">ارسال درخواست</button>
+
+
+						</div>
+
+						@{
+							if (ViewData["Status"] == "success")
+							{
+								<div class="alert alert-success">
+									<strong>ارسال موفق!</strong> پیام شما با موفقیت ارسال شد
+								</div>
+							}
+						}
+					</form>
+				</div>
+
+					</div>
+
+				</div>
+
+			</div>
+</div>
+			

@@ -1,0 +1,462 @@
+﻿<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="author" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+	<title>آموزش برنامه نویسی | محمد حیدری</title>
+
+	<!-- Custom CSS -->
+	<link href="assets/css/styles.css" rel="stylesheet">
+
+	<!-- Custom Color Option -->
+	<link href="assets/css/colors.css" rel="stylesheet">
+
+	<link href="css/site.css" rel="stylesheet">
+
+</head>
+
+<body class="red-skin rtl">
+
+	<!-- ============================================================== -->
+	<!-- Preloader - style you can find in spinners.css -->
+	<!-- ============================================================== -->
+	<div id="preloader"><div class="preloader"><span></span><span></span></div></div>
+
+
+	<!-- ============================================================== -->
+	<!-- Main wrapper - style you can find in pages.scss -->
+	<!-- ============================================================== -->
+	<div id="main-wrapper">
+
+		<!-- ============================================================== -->
+		<!-- Top header  -->
+		<!-- ============================================================== -->
+		<!-- Start Navigation -->
+		<div class="header header-light">
+			<div class="container">
+				<nav id="navigation" class="navigation navigation-landscape">
+					<div class="nav-header">
+						<a class="nav-brand" href="/">
+							<img src="assets/img/logo.png" class="logo" alt="" />
+						</a>
+						<div class="nav-toggle"></div>
+					</div>
+					<div class="nav-menus-wrapper" style="transition-property: none;">
+						<ul class="nav-menu">
+							<li> <a href="/Landing/Devreg" class="mx-2  red-us"> کسب درآمد از برنامه نویسی </a> </li>
+							<li> <a href="#" class="mx-2 black-us "> دوره های آموزشی</a> </li>
+							<li> <a href="/About" class="mx-2  black-us"> درباره ما</a> </li>
+							<li> <a href="/Contact" class="mx-2  black-us"> تماس با ما </a> </li>
+							<li> <a href="/def_crs" class="mx-2  black-us"> show</a> </li>
+							<li> <a href="/showcrsreg" class="mx-2  black-us"> showcrsreg</a> </li>
+							<li> <a href="/reg_crs" class="mx-2  black-us"> reg_crs</a> </li>
+							<li> <a href="/edit_crs" class="mx-2  black-us"> edit_crs</a> </li>
+							<li> <a href="/Reg_pakage" class="mx-2  black-us"> Reg_pkg</a> </li>
+						</ul>
+
+						<ul class="nav-menu nav-menu-social align-to-left">
+
+							<li class="login_click bg-theme">
+								<a href="javascript:showLogin()" id="showLogin">ورود</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+		<!-- End Navigation -->
+		<div class="clearfix"></div>
+		<!-- ============================================================== -->
+		<!-- Top header  -->
+		<!-- ============================================================== -->
+		@RenderBody()
+
+		<!-- ============================== Start Newsletter ================================== -->
+		<section class="bg-cover newsletter inverse-theme" style="background:url(assets/img/banner-2.jpg);" data-overlay="9">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-7 col-md-8 col-sm-12">
+						<div class="text-center">
+							<h2>به جامعه دانشجویان ما بپیوندید!</h2>
+							<p> و به آموزش در حوزه‌های گوناگون برنامه نویسی دسترسی داشته باشید.</p>
+							<form class="sup-form">
+								<input id="inputSubscribeMobile" type="text" class="form-control sigmup-me" placeholder="شماره همراه خود را وارد کنید..." required="required">
+								<button id="btnSubscribe" class="btn btn-theme" type="button">
+									عضویت
+									<span class="d-none">
+										&nbsp;
+										<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+									</span>
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ================================= End Newsletter =============================== -->
+		<!-- ============================ Footer Start ================================== -->
+		<footer class="dark-footer skin-dark-footer">
+			<div>
+				<div class="container">
+					<div class="row">
+
+						<div class="col-lg-4 col-md-4">
+							<div class="footer-widget">
+								<img src="assets/img/logo-light.png" class="img-footer" alt="" />
+								<div class="footer-add">
+									<p>قم، خیابان شهید کریمی، کوچه 25، پلاک 12</p>
+									<p>+989337375756</p>
+									<p>mhmdhidry@gmail.com</p>
+								</div>
+
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4">
+							<div class="footer-widget">
+								<h4 class="widget-title">لینک های مفید</h4>
+								<ul class="footer-menu">
+									<li><a href="/Devreg">کسب درآمد از برنامه نویسی</a></li>
+									<li><a href="/About">درباره ما</a></li>																		
+									<li><a href="/Contact">تماس با ما</a></li>									
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-lg-4 col-md-4">
+							<div class="footer-widget">
+								<h4 class="widget-title">دسته بندی</h4>
+								<ul class="footer-menu">
+									<li><a href="#">طراحی سایت</a></li>
+									<li><a href="#">برنامه نویسی وب</a></li>
+									<li><a href="#">برنامه نویسی موبایل</a></li>
+									<li><a href="#">پایگاه داده </a></li>
+									<li><a href="#">برنامه نویسی رمز ارز</a></li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="footer-bottom">
+				<div class="container">
+					<div class="row align-items-center">
+
+						<div class="col-lg-6 col-md-6">
+							<p class="mb-0">© 2023  تمامی حقوق برای  <a href="/">محمد حیدری</a> محفوظ می باشد</p>
+						</div>						
+
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- ============================ Footer End ================================== -->
+		<!-- Log In Modal -->
+		<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="registermodal" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered login-pop-form" role="document">
+				<div class="modal-content" id="registermodal">
+					<span class="mod-close" data-dismiss="modal" aria-hidden="true"><i class="ti-close"></i></span>
+					<div class="modal-body">
+						<h4 class="modal-header-title">ورود به حساب</h4>
+						<div class="login-form">
+							<form>
+
+								<div class="form-group">
+									<label>نام کاربری</label>
+									<input type="text" class="form-control" placeholder="نام کاربری">
+								</div>
+
+								<div class="form-group">
+									<label>رمز عبور</label>
+									<input type="password" class="form-control" placeholder="*******">
+								</div>
+
+								<div class="form-group">
+									<button type="submit" class="btn btn-md full-width pop-login">ورود به حساب</button>
+								</div>
+
+							</form>
+						</div>
+
+						<div class="social-login mb-3">
+							<ul>
+								<li>
+									<input id="reg" class="checkbox-custom" name="reg" type="checkbox">
+									<label for="reg" class="checkbox-custom-label">ذخیره رمزعبور</label>
+								</li>
+								<li class="left"><a href="#" class="theme-cl">رمز عبور خود را فراموش کرده اید؟</a></li>
+							</ul>
+						</div>
+
+						<div class="modal-divider"><span>یـا</span></div>
+						<div class="social-login ntr mb-3">
+							<ul>
+								<li><a href="#" class="btn connect-fb"><i class="ti-facebook"></i>Facebook</a></li>
+								<li><a href="#" class="btn connect-google"><i class="ti-google"></i>Google</a></li>
+							</ul>
+						</div>
+
+						<div class="text-center">
+							<p class="mt-2">حساب کاربری دارید؟ <a href="register.html" class="link">ورود به اکانت</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Modal -->
+		<!-- Sign Up Modal -->
+		<div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="sign-up" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered login-pop-form" role="document">
+				<div class="modal-content" id="sign-up">
+					<span class="mod-close" data-dismiss="modal" aria-hidden="true"><i class="ti-close"></i></span>
+					<div class="modal-body">
+						<h4 class="modal-header-title">ثبت نام</h4>
+						<div class="login-form">
+							<form>
+
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="نام کامل">
+								</div>
+
+								<div class="form-group">
+									<input type="email" class="form-control" placeholder="پست الکترونیکی">
+								</div>
+
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="نام کاربری">
+								</div>
+
+								<div class="form-group">
+									<input type="password" class="form-control" placeholder="*******">
+								</div>
+
+
+								<div class="form-group">
+									<button type="submit" class="btn btn-md full-width pop-login">ثبت نام</button>
+								</div>
+
+							</form>
+						</div>
+
+						<div class="modal-divider"><span>یـا</span></div>
+						<div class="social-login ntr mb-3">
+							<ul>
+								<li><a href="#" class="btn connect-fb"><i class="ti-facebook"></i>Facebook</a></li>
+								<li><a href="#" class="btn connect-google"><i class="ti-google"></i>Google</a></li>
+							</ul>
+						</div>
+
+						<div class="text-center">
+							<p class="mt-3"><i class="ti-user ml-1"></i>آیا حساب کاربری دارید؟ <a href="#" class="link">ورود به حساب کاربری</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Modal -->
+		<!-- Log In Modal -->
+		<div class="modal fade" id="auth-login" tabindex="-1" role="dialog" aria-labelledby="registermodal" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered login-pop-form" role="document">
+				<div class="modal-content" id="registermodal">
+					<span class="mod-close" data-dismiss="modal" aria-hidden="true"><i class="ti-close"></i></span>
+					<div class="modal-body">
+						<h4 class="modal-header-title">ورود به حساب</h4>
+						<div class="login-form">
+							<form>
+
+								<div id="auth-login-form">
+									<div class="form-group">
+										<label>شماره همراه</label>
+										<input id="auth-login-input-mobile" type="text" class="form-control text-center" style="font-size:1.5rem" maxlength="11" placeholder="شماره همراه">
+										<span id="auth-login-span-mobile" class="text-danger"></span>
+									</div>
+									<div class="form-group">
+										<button id="auth-login-button-submit" type="button" class="btn btn-md full-width pop-login">
+											بررسی شماره همراه
+											<span class="d-none">
+												&nbsp;
+												<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+											</span>
+										</button>
+									</div>
+								</div>
+								<div id="auth-register-form" class="d-none">
+									<div class="form-group" id="auth-register-group-fullname">
+										<label>نام و نام خانوادگی</label>
+										<input id="auth-register-input-fullname" type="text" class="form-control text-center" style="font-size:1.5rem" placeholder="نام و نام خانوادگی">
+										<span id="auth-register-span-fullname" class="text-danger"></span>
+									</div>
+
+									<div class="form-group">
+										<div class="d-flex justify-content-between">
+											<label>کد دریافت شده</label>
+											<label id="auth-register-label-time"></label>
+										</div>
+										<input id="auth-register-input-code" type="text" class="form-control text-center" style="font-size:1.5rem" maxlength="4" placeholder="کد دریافت شده">
+										<span id="auth-register-span-code" class="text-danger"></span>
+									</div>
+									<div class="form-group">
+										<button id="auth-register-button-submit" type="button" class="btn btn-md full-width pop-login">
+											ورود به سامانه
+											<span class="d-none">
+												&nbsp;
+												<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+											</span>
+										</button>
+									</div>
+									<div class="social-login my-3">
+										<ul>
+											<li>
+												<input id="auth-login-input-remember" class="checkbox-custom" type="checkbox">
+												<label for="auth-login-input-remember" class="checkbox-custom-label">ذخیره اطلاعات</label>
+											</li>
+										</ul>
+									</div>
+								</div>
+
+
+							</form>
+						</div>
+
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Modal -->
+
+		<a id="back2Top" class="top-scroll" title="Back to top" href="#"><i class="ti-arrow-up"></i></a>
+
+
+	</div>
+	<!-- ============================================================== -->
+	<!-- End Wrapper -->
+	<!-- ============================================================== -->
+	<!-- ============================================================== -->
+	<!-- All Jquery -->
+	<!-- ============================================================== -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/select2.min.js"></script>
+	<script src="assets/js/slick.js"></script>
+	<script src="assets/js/jquery.counterup.min.js"></script>
+	<script src="assets/js/counterup.min.js"></script>
+	<script src="assets/js/custom.js"></script>
+	<script src="js/sweetalert2.js"></script>
+	<script src="/js/site.js"></script>
+	<!-- ============================================================== -->
+	<!-- This page plugins -->
+	<!-- ============================================================== -->
+
+    @await RenderSectionAsync("Scripts", required: false)
+
+
+    <script>
+        var modal = $("#auth-login");
+		var inputSubscribeMobile = $("#inputSubscribeMobile")
+        var inputMobile = $("#auth-login-input-mobile")
+        var spanMobile = $("#auth-login-span-mobile")
+        function showLogin() {
+            modal.modal('show');
+        }
+		
+		document.getElementById("btnSubscribe").addEventListener("click", function (event) {
+			event.preventDefault();
+			if (inputSubscribeMobile.val() == '') {
+				error('لطفا شماره همراه را وارد کنید');
+			}
+			else{
+				$(this).find('span').removeClass('d-none');
+				$.ajax({
+					type: "GET",
+					url: "/Index?handler=Subscribe&mobile=" + inputSubscribeMobile.val().substring(0, 11),
+					contentType: 'application/x-www-form-urlencoded',
+					dataType: "json",
+					success: function (msg) {
+						if (msg == 'success') {
+							success("عضویت شما با موفقیت انجام شد");
+						}
+						inputSubscribeMobile.val("");
+					},
+					error: function (xhr, ajaxOptions, thrownError) {
+						//alert(xhr.status);
+						//alert(thrownError);
+					}
+				});
+				$(this).find('span').addClass('d-none');
+			}
+		});
+        document.getElementById("auth-login-button-submit").addEventListener("click", function (event) {
+            event.preventDefault();
+            if (inputMobile.val() == '') {
+                spanMobile.html('لطفا شماره همراه را وارد کنید');
+            }
+            else{
+                spanMobile.html('');
+                $(this).find('span').removeClass('d-none');
+
+                $.ajax({
+                    type: "GET",
+                    url: "/Index?handler=Login&mobile=" + inputMobile.val().substring(0, 11),
+                    //data: { "mobile": inputMobile.val().substring(0, 11) },
+                    contentType: 'application/x-www-form-urlencoded',
+                    dataType: "json",
+                    success: function (msg) {
+                        $('#auth-login-form').addClass('d-none')
+                        $('#auth-register-form').removeClass('d-none')
+                        if (msg == 'true') {
+                            $('#auth-register-group-fullname').hide();
+                            $('#auth-register-input-code').focus();
+                            isNewUser = false;
+                        }
+                        else {
+                            $('#auth-register-group-fullname').show();
+                            $('#auth-register-input-fullname').focus();
+                            isNewUser = true;
+                        }
+                    },
+                    error: function (xhr, ajaxOptions, thrownError) {
+                        //alert(xhr.status);
+                        //alert(thrownError);
+                    }
+                });
+
+
+                $(this).find('span').addClass('d-none');
+            }
+            
+        });
+        document.getElementById("auth-register-button-submit").addEventListener("click", function (event) {
+            event.preventDefault();
+            $(this).find('span').removeClass('d-none');
+
+            $(this).find('span').addClass('d-none');
+        });
+    </script>
+
+	@{
+		if (TempData["Error"] != null)
+		{
+			<script>
+				error("@Html.Raw(TempData["Error"])");
+			</script>
+		}
+		if (TempData["Success"] != null)
+		{
+			<script>
+				success("@Html.Raw(TempData["Success"])");
+			</script>
+		}
+	}
+
+
+</body>
+
+</html>

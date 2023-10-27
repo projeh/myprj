@@ -1,0 +1,109 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = mhmdhidry
+build_property.RootNamespace = mhmdhidry
+build_property.ProjectDir = C:\Users\mypc\Downloads\mhmdhidry--main\mhmdhidry--main\mhmdhidry\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\mypc\Downloads\mhmdhidry--main\mhmdhidry--main\mhmdhidry
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/mypc/Downloads/mhmdhidry--main/mhmdhidry--main/mhmdhidry/Pages/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mypc/Downloads/mhmdhidry--main/mhmdhidry--main/mhmdhidry/Pages/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mypc/Downloads/mhmdhidry--main/mhmdhidry--main/mhmdhidry/Pages/def_crs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZGVmX2Nycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mypc/Downloads/mhmdhidry--main/mhmdhidry--main/mhmdhidry/Pages/Devreg.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGV2cmVnLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mypc/Downloads/mhmdhidry--main/mhmdhidry--main/mhmdhidry/Pages/editcrsreg.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZWRpdGNyc3JlZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mypc/Downloads/mhmdhidry--main/mhmdhidry--main/mhmdhidry/Pages/edit_crs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZWRpdF9jcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mypc/Downloads/mhmdhidry--main/mhmdhidry--main/mhmdhidry/Pages/edit_pakage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZWRpdF9wYWthZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mypc/Downloads/mhmdhidry--main/mhmdhidry--main/mhmdhidry/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mypc/Downloads/mhmdhidry--main/mhmdhidry--main/mhmdhidry/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mypc/Downloads/mhmdhidry--main/mhmdhidry--main/mhmdhidry/Pages/Landing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGFuZGluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mypc/Downloads/mhmdhidry--main/mhmdhidry--main/mhmdhidry/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mypc/Downloads/mhmdhidry--main/mhmdhidry--main/mhmdhidry/Pages/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mypc/Downloads/mhmdhidry--main/mhmdhidry--main/mhmdhidry/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mypc/Downloads/mhmdhidry--main/mhmdhidry--main/mhmdhidry/Pages/reg_crs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccmVnX2Nycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mypc/Downloads/mhmdhidry--main/mhmdhidry--main/mhmdhidry/Pages/Reg_pakage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnX3Bha2FnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mypc/Downloads/mhmdhidry--main/mhmdhidry--main/mhmdhidry/Pages/Shared/_ly.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9seS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mypc/Downloads/mhmdhidry--main/mhmdhidry--main/mhmdhidry/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mypc/Downloads/mhmdhidry--main/mhmdhidry--main/mhmdhidry/Pages/showallpakage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2hvd2FsbHBha2FnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mypc/Downloads/mhmdhidry--main/mhmdhidry--main/mhmdhidry/Pages/showcrsreg.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2hvd2Nyc3JlZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mypc/Downloads/mhmdhidry--main/mhmdhidry--main/mhmdhidry/Pages/show_pkg.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2hvd19wa2cuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mypc/Downloads/mhmdhidry--main/mhmdhidry--main/mhmdhidry/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mypc/Downloads/mhmdhidry--main/mhmdhidry--main/mhmdhidry/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mypc/Downloads/mhmdhidry--main/mhmdhidry--main/mhmdhidry/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ddj9posnt7
