@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Pages\edit_pkg.cshtml" />
+    <Content Remove="Pages\show.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Pages\edit_pkg.cshtml" />
+    <None Include="Pages\show.cshtml" />
+    <None Include="wwwroot\Dashboard\css\bootstrap.css.map" />
+    <None Include="wwwroot\Dashboard\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\Dashboard\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\Dashboard\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\Dashboard\icons-reference\fonts\dashboard.svg" />
+    <None Include="wwwroot\Dashboard\js\bootstrap.js" />
+    <None Include="wwwroot\Dashboard\js\bootstrap.min.js" />
+    <None Include="wwwroot\Dashboard\js\charts-custom.js" />
+    <None Include="wwwroot\Dashboard\js\charts-home.js" />
+    <None Include="wwwroot\Dashboard\js\front.js" />
+    <None Include="wwwroot\Dashboard\js\jquery.cookie.js" />
+    <None Include="wwwroot\Dashboard\js\jquery.validate.min.js" />
+    <None Include="wwwroot\Dashboard\js\tether.min.js" />
+    <None Include="wwwroot\js\site.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.12" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="7.0.12" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Pages\show.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Pages\edit_pkg.cshtml" />
+    <_ContentIncludedByDefault Remove="Pages\show.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Pages\edit_pkg.cshtml" />
+  </ItemGroup>
+
+</Project>
